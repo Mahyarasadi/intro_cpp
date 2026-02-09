@@ -3,10 +3,12 @@
 // Hello World, by Eduardo Corpeño 
 
 #include <iostream>
+#include <string>
 
 int main(){
-    std::cout << "Hi There!" << std::endl;
-
-    std::cout << std::endl << std::endl;
+    std::string name;
+    std::cout << "Enter Your Name:" << std::flush;
+    std::cin >> name;
+    std::cout << "Welcome " << name << "!" << std::endl;
     return (0);
 }

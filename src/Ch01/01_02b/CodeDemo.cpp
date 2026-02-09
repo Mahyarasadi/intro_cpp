@@ -4,6 +4,7 @@
 #include <iostream>
 
 int main() {
+    std::cout<< std::endl;
     std::cout << "Hi there" << std::endl;
     std::cout << std::endl<< std::endl;
     return (0);

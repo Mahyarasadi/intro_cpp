@@ -4,9 +4,13 @@
 
 #include <iostream>
 #include <string>
-
+#include <vector>
 int main(){
-    
+    std::vector<int> primes;
+    std::cout << primes.size() << std::endl;
+    primes.push_back(5);
+    primes.push_back(8);
+    std::cout << primes.size() << std::endl;
     std::cout << std::endl << std::endl;
     return (0);
 }

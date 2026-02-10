@@ -9,8 +9,8 @@ private:
 
 public:
     Student(int the_id, std::string the_name);
-    int get_id() const;
-    std::string get_name() const;
+    int get_id();
+    std::string get_name();
 };
 
 class Course{
@@ -21,9 +21,9 @@ private:
 
 public:
     Course(int the_id, std::string the_name, unsigned char the_credits);
-    int get_id() const;
-    std::string get_name() const;
-    int get_credits() const;
+    int get_id();
+    std::string get_name();
+    unsigned char get_credits();
 };
 
 class Grade{
@@ -34,7 +34,7 @@ private:
 
 public:
     Grade(int sid, int cid, char grd);
-    int get_student_id() const;
-    int get_course_id() const;
-    char get_grade() const;
+    int get_student_id();
+    int get_course_id();
+    char get_grade();
 };

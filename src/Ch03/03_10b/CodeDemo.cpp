@@ -8,6 +8,8 @@
 #include "cow.h"
 
 int main(){
+    std::vector <cow> cattle;
+    
     
     std::cout << std::endl << std::endl;
     return (0);

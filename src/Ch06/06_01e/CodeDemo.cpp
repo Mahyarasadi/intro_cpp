@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-
+using namespace std;
 int main(){
     std::ifstream inFile;
     std::string str;
@@ -20,11 +20,11 @@ int main(){
             getline(inFile, str);
             std::cout << str << ", ";
             getline(inFile, str);
-            number = stoi(str);
+            number = std::stoi(str);
             std::cout << number << ", ";
             getline(inFile, str);
             letter = str[0];
-            std::cout << letter << std::endl;
+            cout << letter << std::endl;
         }
         inFile.close();
     }

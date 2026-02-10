@@ -22,15 +22,14 @@ int main(){
                                 Grade(2, 1, 'A'), Grade(2, 2, 'A'), Grade(2, 4, 'B')};
 
     std::cout << "Enter a student ID: " << std::flush;
-    std::cin >> id;
+    // std::cin >> id;
+    // // std::string student_str;
+    // std::string student_str = students[id].get_name(); // Change this to the selected student's name
+    std::cout << grades.size() << std::endl;
 
     // Calculate the GPA for the selected student.
     // Write your code here
-
-    std::string student_str;
-    student_str = students[0].get_name(); // Change this to the selected student's name
-
-    std::cout << "The GPA for " << student_str << " is " << GPA << std::endl;
+    // std::cout << "The GPA for " << student_str << " is " << GPA << std::endl;
     
     std::cout << std::endl << std::endl;
     return (0);
